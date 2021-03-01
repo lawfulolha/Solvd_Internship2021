@@ -7,10 +7,9 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App"> 
-    <Footer/>
+    <div className="App">  
+      <Homepage1/>
     </div>
   );
-}
-
+} 
 export default App;

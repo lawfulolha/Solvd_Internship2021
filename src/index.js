@@ -24,6 +24,7 @@ ReactDOM.render(
           <Route exact path="/services" component={Services}/>
           <Route exact path="/home-3" component={Homepage3}/> 
       </Switch>
+      <App/>
     </Router>,
    
   </React.StrictMode>,

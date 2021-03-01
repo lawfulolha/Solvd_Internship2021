@@ -21,10 +21,10 @@ function Header(props)  {
       {/* <div className="content"> */}
           <img className="logo" src={logoImg}/>
           <nav className="navigation">
-              <a className="nav-link" href="/home">Home</a>
-              <a className="nav-link" href="/about-us">About Us</a>
+              <a className="nav-link" href="/home-3">Home</a>
+              <a className="nav-link" href="/team">Team</a>
               <a className="nav-link" href="/services">Services</a>
-              <a className="nav-link" href="/pages">Pages</a> 
+              <a className="nav-link" href="/contact-us">Contact Us</a> 
           </nav>
           <button type="button" >Get a Quote</button>
           {/* </div> */}
@@ -45,12 +45,19 @@ function Header(props)  {
         {/* <div className="content"> */}
             <img className="logo" src={logoImg}/>
             <nav className="navigation">
-                <a className="nav-link" href="/home">Home</a>
+                
+              <a className="nav-link" href="/home-3">Home</a>
+              <a className="nav-link" href="/team">Team</a>
+              <a className="nav-link" href="/services">Services</a>
+              <a className="nav-link" href="/contact-us">Contact Us</a> 
+              <a className="nav-link" href="/blog-standard">Blog Standard</a>
+              <a className="nav-link" href="/our-project">Our Project</a>
+                {/* <a className="nav-link" href="/home">Home</a>
                 <a className="nav-link" href="/about-us">About Us</a>
                 <a className="nav-link" href="/services">Services</a>
                 <a className="nav-link" href="/pages">Pages</a>
                 <a className="nav-link" href="/blog">Blog</a>
-                <a className="nav-link" href="/contact-us">Contact Us</a>
+                <a className="nav-link" href="/contact-us">Contact Us</a> */}
             </nav>
             <button type="button" >Get a Quote</button>
             {/* </div> */}
