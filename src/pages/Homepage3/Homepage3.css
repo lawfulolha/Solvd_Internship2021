@@ -1,0 +1,475 @@
+.third-home,details:hover {
+    background-color: #14396d;
+    color: #fff
+}
+
+.third-home {
+    display: grid;
+    padding: 8% 40% 8% 11%;
+    font-weight: bolder;
+    border-radius: 0 0 3rem 3rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: 75% 100%
+}
+
+.third-home h1 {
+    display: block;
+    align-self: self-end;
+    font-size: calc(1rem + 6*(100vw/680))
+}
+
+.third-home button {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: auto auto 5% 0
+}
+
+.third-home p {
+    font-weight: 400
+}
+
+ul.icons {
+    display: inline-flex;
+    padding: 0;
+    width: 80%;
+    position: absolute;
+    justify-content: space-between;
+    margin: -4% 10% 3%
+}
+
+.icons li {
+    list-style-type: none;
+    background-color: #d3f5ff;
+    border-radius: 50%;
+    padding: 2%;
+    display: inline-flex;
+    width: 4vw;
+    height: 4vw;
+    text-align: center
+}
+
+.icons li img {
+    margin: auto;
+    height: 100%
+}
+
+.service-cards {
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: 60%
+}
+
+.services.hp3 {
+    background-color: #fff
+}
+.services>h4, .services>p{
+    text-align: center;
+}
+.services h4 {
+    font-size: x-large;
+    margin: 1%
+}
+
+.services h4,.services p {
+    color: #14396d
+}
+
+.small-cards>* {
+    text-align: left;
+    border-radius: 5px;
+    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(2,auto);
+    gap: 3%;
+    box-shadow: 1vh 7vh 4vh -1vh #14396d11
+}
+
+.small-cards>*>img {
+    grid-row: 1/3;
+    grid-column: 1
+}
+
+.small-cards>*>h3 {
+    grid-row: 1;
+    grid-column: 2
+}
+
+.small-cards>*>p {
+    grid-row: 2;
+    grid-column: 2
+}
+
+details {
+    font-size: 1rem;
+    margin: 2%;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 10px 10px -5px rgba(0,0,0,.04);
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    width: 35vw
+}
+
+details .summary-title {
+    user-select: none
+}
+
+details:hover {
+    cursor: pointer
+}
+
+details .summary-content {
+    border: 0;
+    cursor: default;
+    padding: 1em;
+    font-weight: 300;
+    line-height: 1.5
+}
+
+details summary {
+    padding: 1em;
+    outline: 0
+}
+
+details[open] summary,details[open]>*>*,details[open]>div,summary>div:focus,summary>div:hover {
+    background-color: #14396d;
+    color: #fff;
+    border: 0
+}
+
+details summary:hover .summary-chevron-up {
+    opacity: 1
+}
+
+details .summary-chevron-up svg {
+    opacity: .5
+}
+
+details .summary-chevron-down,details .summary-chevron-up {
+    pointer-events: none;
+    position: absolute;
+    top: .75em;
+    right: 1em
+}
+
+details summary::-webkit-details-marker {
+    display: none
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.details img,.details>div {
+    grid-column: 1;
+    max-height: 50vh;
+    grid-row: 1/6
+}
+
+.services.questions {
+    padding: 5% 0;
+    background-color: #fff
+}
+
+.details img {
+    width: 45vw;
+    min-height: 96%;
+    margin: auto 5vw auto 0
+}
+
+.details>div {
+    background-color: #14396d;
+    margin: auto 0 auto auto;
+    border-radius: 5px;
+    padding: 3%;
+    color: #fff
+}
+
+.details>div p {
+    color: #fff;
+    margin: 0
+}
+
+.details>div h3 {
+    color: #fedb41;
+    margin: 0
+}
+
+.details>details {
+    grid-column: 2;
+    grid-row: auto
+}
+
+.customer-profile .name span,.services.booking {
+    border-radius: 0 0 5rem 5rem;
+    background-color: #14396d;
+    color: #fff
+}
+
+.services .quote-card p,.services.booking>* {
+    color: #fff
+}
+
+.booking-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50vw;
+    background-color: #14396d;
+    margin: 3% auto
+}
+
+.booking-form>.input-container>* {
+    width: 15vw;
+    border: 0;
+    margin: 2%;
+    color: #14396d;
+    padding: auto auto auto 3%;
+    outline: 0
+}
+
+.booking-form .img-container {
+    padding: 5%;
+    border-radius: 50%;
+    width: 5vw;
+    margin: 0 auto;
+    background: linear-gradient(#00b9ec00,#00b9ec1e)
+}
+
+.img-container img {
+    background-color: #eeeeee00;
+    border-radius: 0
+}
+
+.plan-card,.plan-card button,.pricing {
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.plan-card {
+    color: #14396d;
+    width: 22vw;
+    
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    display: inline-block;
+    padding: 2% 0; 
+}
+.plan-card .img-container{
+    width: 7vw;
+}
+.plan-card:hover {
+    height: 40vh
+}
+
+.plan-card:hover>* {
+    margin: 6% auto
+}
+
+.plan-card>* {
+    margin: 3% auto
+}
+
+.plan-card button {
+    border: 2px solid #fedb41
+}
+
+.plan-card button:hover {
+    background-color: #fedb41
+}
+
+.plan-card>p {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 15%
+}
+
+.plan-card h4 {
+    font-size: 1.3rem
+}
+
+.plan-card h2 {
+    font-size: 1.6rem
+}
+
+.services.quote {
+    position: relative
+}
+
+.services .quote-card {
+    position: relative;
+    display: grid;
+    border-radius: 7rem 0 7rem 0;
+    background-color: #14396d;
+    color: #fff;
+    padding: 7% 7% 7% 20%;
+    text-align: left;
+    margin-left: 10%;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4,auto);
+    gap: 3%
+}
+
+.quote-card .img-container {
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+    margin: -16% 10% 27% 10%;
+    padding: 0;
+}
+
+.services .customer-profile {
+    position: absolute;
+    margin: 10% auto 10% -10%
+}
+
+.quote-card .img-container img {
+    min-width: 100%;
+    border-radius: 50%;
+
+    min-height: 100%
+}
+
+.customer-profile .name {
+    z-index: 4;
+    width: 18vw;
+    padding: 6%;
+    display: grid;
+    position: absolute;
+    margin: -55% -54%;
+    color: #0e182b;
+    background-color: #fff;
+}
+
+.customer-profile .name p {
+    color: #0e182b;
+    grid-row: 2;
+    grid-column: 2;
+    margin: 0;
+    text-align: left
+}
+
+.customer-profile .name h3 {
+    margin: 0;
+    text-align: left
+}
+
+.customer-profile .name span {
+    display: inline-block;
+    grid-row: 1/3;
+    align-items: center;
+    grid-column: 1;
+    margin: 4% 9% 4% auto;
+    width: 39%;
+    padding: 0.9rem 0.5rem;
+    border-radius: 3rem;
+}
+
+.quote-block {
+    grid-column: 2
+}
+
+.quote-card .buttons {
+    grid-column: 3;
+    grid-row: 1/3;
+    align-self: center
+}
+
+.quote-card button {
+    width: 3vw;
+    height: 3vw;
+    margin: 20% auto;
+    display: block;
+    border-radius: 5rem
+}
+
+.posts {
+    height: 30%;
+    display: inline-flex
+}
+
+.posts>* {
+    max-width: 50%;
+    min-height: 100%
+}
+
+.blog-news,.blog-post .text {
+    background-color: #fff
+}
+
+.blog-post {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin: 3%;
+    box-shadow: 1vh 7vh 4vh -1vh #14396d11;
+    padding: 0;
+    border-radius: 1rem
+}
+
+.blog-post .text {
+    padding: 10% 5%;
+    margin: 0;
+    text-align: start;
+    z-index: 3
+}
+
+.blog-post .text span {
+    display: inline-block;
+    width: 50%
+}
+
+.blog-post .img-container {
+    width: 30vw;
+    padding: 0;
+    border-radius: 0;
+    overflow: hidden
+}
+
+.blog-post .img-container img {
+    width: 100%; 
+}
+
+.blog-post-big {
+    height: 40vw
+}
+
+.blog-post-big .img-container {
+    grid-row: 1;
+    width: 100%;
+    margin: 0;
+    grid-column: auto
+}
+
+.blog-post-big>.text {
+    grid-row: 2;
+    grid-column: auto
+}
+
+.blog-post-small {
+    height: 50%;
+    width: 100%
+}
+
+.small-posts {
+    align-self: center
+}
+
+.blog-post-small .img-container {
+    grid-column: 1;
+    grid-row: auto;
+    height: 100%
+}
+
+.blog-post-small>.text {
+    grid-column: 2;
+    grid-row: auto
+}
+
+.blog-post-small .img-container {
+    width: 100%
+}

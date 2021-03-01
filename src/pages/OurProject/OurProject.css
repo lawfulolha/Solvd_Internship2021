@@ -1,0 +1,32 @@
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    position: relative;
+    padding: 5% 11%
+}
+
+.projects>* {
+    width: 100%
+}
+
+.categories {
+    padding: 5% 11% 0;
+    font-weight: bolder;
+    color: #0e182b;
+    display: grid;
+    text-align: center
+}
+
+.categories li {
+    list-style-type: none;
+    grid-row: 1
+}
+
+.categories li:hover {
+    color: #00baec
+}
+
+.categories li:active,.categories li:focus {
+    color: #00baec
+}

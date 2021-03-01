@@ -1,0 +1,47 @@
+.ad-container{
+    padding: 3%;
+    margin: 5% 11% 1% 11%;
+    background-color: #fedb41;
+    color: #0e182b;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "h button" "p button";
+}
+.ad-container h4{
+    grid-area: h;
+    font-size: 1rem;
+}
+.ad-container p{
+    grid-area: p;
+}
+.ad-container .call-button{
+    background-color: white;
+    color: #14396d;
+    grid-area: button;
+    /* margin: auto; */
+    /* padding: 5%; */ 
+    /* width: 100%; */
+    display: inline-flex;
+    border-radius: 3rem;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ad-container .call-button p{
+    font-weight: bolder;     
+    font-size: larger;
+}
+.ad-container>*{
+    margin: 0;
+}
+.ad-container .call-button button{
+    font-size: large;
+    border-radius: 3rem;
+    margin: 1%  ;
+    float: right;
+    border:.3rem solid  #00baec;
+    background-color: #fedb41;
+    color: white;
+}

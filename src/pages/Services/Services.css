@@ -1,0 +1,32 @@
+.services.posts{
+    background-color: white;
+}
+.service-post{
+
+ color: #14396d;
+ box-shadow: 1vh 7vh 4vh -1vh #14396d11;
+
+}
+.service-post h3{
+font-weight: normal;
+margin: auto auto auto 1%;
+}
+.service-post .img-container{
+    height: 100%;
+}
+.service-post p.text{
+    width: 100%;
+    margin: 0;
+    padding: 5% 0;
+}
+.service-post p{
+ width: 50%;
+ color: #14396d;
+ margin: 0;
+ display: inline-flex;
+ place-items: center;
+}
+.service-post p>svg{
+    align-self: center;
+    margin: 0 1%;
+}

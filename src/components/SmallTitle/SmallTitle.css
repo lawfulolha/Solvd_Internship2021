@@ -1,0 +1,19 @@
+.small-title h3{
+    margin-bottom: 5%;
+}
+.small-title>p{
+    font-weight: bolder;
+    margin: 1% 0 0 0;
+    color: #00baec;
+    font-size: calc(70% + 1vw);
+}
+.small-title h3{ 
+    display: inline-block;
+    margin-top: 1%;
+    width: 50%;
+    font-size: calc(130% + 1vw);
+    color: #14396d;
+}
+.small-title {
+    text-align: center;
+}

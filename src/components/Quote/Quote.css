@@ -1,0 +1,19 @@
+.quote.quote-white{
+    background-color: rgba(171, 216, 171, 0);
+    text-align: left;
+    color: #14396d;
+}
+.quote.quote-white>svg:first-child{
+    font-size: 3rem;
+    color: #00baec;
+}
+.quote.quote-white {
+   
+}
+.quote.quote-white svg{
+   
+    color:#fedb41;
+}
+.customer-info{
+    color: #0e182b;
+}

@@ -1,0 +1,57 @@
+.profile-card.team {
+    display: inline-block;
+    padding-top: 30%;
+    width: 20vw;
+    margin: 3%;
+    border-radius: 2rem 0 0 0;
+    position: relative;
+    color: #14396d
+}
+
+.services.our-team {
+    background-color: #fff
+}
+
+.profile-card.team .links {
+    display: none;
+    padding: 3% 0;
+    position: absolute;
+    margin: -14% auto auto;
+    color: #fff;
+    width: 100%;
+    background-color: #14396d;
+    text-align: center
+}
+
+.profile-card.team:hover .links {
+    display: block
+}
+
+.profile-card.team .profile-info p {
+    color: #00baec
+}
+
+.profile-card.team:hover {
+    color: #14396d;
+    padding: auto
+}
+
+.profile-card .profile-info {
+    background-color: #e8faff;
+    padding: 3%
+}
+
+.services.team-services .service-cards {
+    display: inline-block;
+    display: inline-flex;
+    height: 100%
+}
+
+.services.team-services>*>*>img {
+    height: 5vw
+}
+
+.services .small-cards>* {
+    border-radius: 1rem 0 1rem 0;
+    padding: 2%
+}
